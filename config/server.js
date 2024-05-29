@@ -7,4 +7,13 @@ module.exports = ({ env }) => ({
   webhooks: {
     populateRelations: env.bool('WEBHOOKS_POPULATE_RELATIONS', false),
   },
+   admin: {
+    autoOpen: false,
+    init: {
+      enabled: true,
+    },
+    auth: {
+      secret: env('ADMIN_JWT_SECRET', 'your-admin-jwt-secret'),
+    },
+  },
 });
