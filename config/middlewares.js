@@ -10,20 +10,3 @@ module.exports = [
   "strapi::favicon",
   "strapi::public",
 ];
-module.exports = {
-  settings: {
-    cors: {
-      enabled: true,
-      origin: "*",
-    },
-    logger: {
-      level: "info",
-    },
-    custom: {
-      disableRegisterIfNotLoggedIn: {
-        enabled: true,
-        resolve: "./middlewares/disableRegisterIfNotLoggedIn",
-      },
-    },
-  },
-};
