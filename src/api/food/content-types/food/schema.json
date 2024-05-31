@@ -15,18 +15,10 @@
     "name": {
       "type": "string"
     },
-    "image": {
-      "type": "media",
-      "multiple": false,
-      "required": false,
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos",
-        "audios"
-      ]
-    },
     "descrition": {
+      "type": "text"
+    },
+    "image": {
       "type": "text"
     }
   }
