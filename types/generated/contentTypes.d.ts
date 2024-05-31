@@ -377,6 +377,7 @@ export interface ApiFoodFood extends Schema.CollectionType {
     name: Attribute.String;
     descrition: Attribute.Text;
     image: Attribute.Text;
+    price: Attribute.Integer;
     createdAt: Attribute.DateTime;
     updatedAt: Attribute.DateTime;
     publishedAt: Attribute.DateTime;

@@ -20,6 +20,9 @@
     },
     "image": {
       "type": "text"
+    },
+    "price": {
+      "type": "integer"
     }
   }
 }
